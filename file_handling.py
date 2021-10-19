@@ -1,0 +1,8 @@
+f1=open("xyz.txt","w")
+f1.write("hey babe whats up")
+f1=open("xyz.txt","r")
+a=f1.read(3)
+print(a)
+a=f1.read()
+print(a)
+f1.close()
